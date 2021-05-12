@@ -1,0 +1,140 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif; */
+
+:root{
+	--very-dark-blue: hsl(233, 47%, 7%);
+	--dark-desaturated-blue: hsl(244, 38%, 16%);
+	--soft-violet: hsl(277, 64%, 61%);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+body{
+	background: var(--very-dark-blue);
+	margin-top: 5rem;
+}
+
+.card-container{
+	padding: 0.5rem;
+	display: grid;
+	place-items: center;
+	width: 75%;
+	height: 50%;
+	margin: auto;
+	grid-template-columns: 50% 50%;
+	border-radius: 10px;
+}
+
+
+.text-container{
+	background-color: var(--dark-desaturated-blue);
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 1rem;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+
+}
+
+.text-container p{
+	font-size: 17px;
+}
+
+.text-container ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+.text-container ul li{
+	list-style: none;
+	width: 100%;
+	height: 100%;
+}
+
+.image-container{
+	height: 100.2%;
+	padding:0;
+	margin: 0;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.image-container .mobile{
+	display: none;
+}
+
+.image-container .desktop{
+	object-fit: fill;
+	width: 100%;
+	height: 100%;
+	opacity: 0.6;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.image-container{
+	background: var(--soft-violet);
+}
+
+.attribution{
+	margin: 3rem
+}
+
+mark{
+	background: none;
+	color: var(--soft-violet)
+}
+
+
+@media only screen and (max-width: 900px){
+	.card-container{
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: flex-start;
+		width: 100%;
+		height: 90vh;
+	}
+
+	body{
+		margin: 1rem;
+		text-align: center;
+	}
+
+	.image-container{
+		border-radius: 0px;
+		border-top-right-radius: 15px;
+		border-top-left-radius: 15px;
+	}
+
+	.image-container .desktop{
+		display:none;
+	}
+
+	.image-container .mobile{
+		display: block;
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+		opacity: 0.6;
+		border-top-right-radius: 15px;
+		border-top-left-radius: 15px;
+	}
+
+	.text-container{
+		display: flex;
+		flex-direction: column;
+		border-radius: 0px;
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+		
+	}
+} 
