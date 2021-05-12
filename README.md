@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution Code](https://github.com/TendaiChikwiri/Stats-Preview-Card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://clever-montalcini-25814b.netlify.app/)
 
 ## My process
 
