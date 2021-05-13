@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution Code](https://github.com/TendaiChikwiri/Stats-Preview-Card)
-- Live Site URL: [Live Site](https://clever-montalcini-25814b.netlify.app/)
+- Live Site URL: [Live Site](https://tendaichikwiri.github.io/Stats-Preview-Card/)
 
 ## My process
 
