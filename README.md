@@ -35,8 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution Code](https://github.com/TendaiChikwiri/Stats-Preview-Card)
-- Live Site URL: [Live Site](https://tendaichikwiri.github.io/Stats-Preview-Card/)
-
+- Live Site URL: <a href="https://tendaichikwiri.github.io/Stats-Preview-Card/" target="_blank">Live Link</a>
 ## My process
 
 ### Built with
